@@ -1,0 +1,73 @@
+## Verification of Page One Details
+
+Before scoring, the details on page one of the attached paper were confirmed against the provided metadata:
+
+* **First Author:** Uri Ladabaum
+
+
+* **Journal:** Gastroenterology
+
+
+* **Year:** 2023
+
+
+* **Study Design:** Non-randomized implementation study / quasi-experimental study ("retrospective pragmatic trial with historical and concurrent control subjects")
+
+
+
+All four fields agree with the citation recorded for Paper 8 ("Ladabaum et al. 2023, Gastroenterology").
+
+---
+
+## Reliability Checklist Scoring
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| 1 | External Validation | `No`<br> | High | Methods / Page 2: "We conducted a retrospective pragmatic trial with historical and concurrent control subjects. CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation... Our system's 5 other units served as control sites." Evaluated directly in practice via historical/concurrent controls rather than validating a model on a separate validation dataset.
+
+ |
+| 2 | Patient-Level RCT | `No`<br> | High | Methods / Page 2: "We conducted a retrospective pragmatic trial with historical and concurrent control subjects. CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site')... Our system's 5 other units served as control sites." No individual patient randomisation occurred.
+
+ |
+| 3 | Prespecified Endpoint | `N/A`<br> | High | Class B item invoked. The study has no trial arms (it is a non-randomized quasi-experimental implementation study with site/historical controls).
+
+ |
+| 4 | Prespecified Design | `N/A`<br> | High | Class B item invoked. The study has no trial arms.
+
+ |
+| 5 | Registered w/ CT.gov | `N/A`<br> | High | Class B item invoked. The study has no trial arms.
+
+ |
+| 6 | Transparent Reporting | `No`<br> | High | Methods / Page 2: The study evaluates a commercial CADe device ("GI Genius; Medtronic, Minneapolis, MN") as a black-box tool. Predictors and feature importance are not reported.
+
+ |
+| 7 | Honest Impact Eval | `Yes`<br> | High | Abstract / Page 2–4: Abstract conclusion matches observed results. Page 2: "In real-world practice, CADe implementation without attention to endoscopist inclination and behavior may not achieve the intended results." Page 3: "No statistically significant effect of CADe on ADR... or any other detection metric was detected".
+
+ |
+| 8 | No Conflict of Interest | `No`<br> | High | Declaration of Interests / Page 1: "Uri Ladabaum is on the advisory board for UniversalDx and Lean Medical, and is a consultant for Medtronic, Clinical Genomics, Guardant Health, Freenome, and Geneoscopy." The first author is a consultant for Medtronic, the manufacturer of the evaluated GI Genius CADe device.
+
+ |
+| 9 | Focus on Patient Outcomes | `No`<br> | High | Tier 3 (Surrogate / Intermediate clinical finding) assigned per `DEFINITIONS.md`. Methods / Page 2: "We analyzed whether quality metrics changed as hypothesized in the CADe site... ADR was 40.1%... and mean APC was 0.78". Lesion detection rates and counts (ADR, APC) are tier 3 surrogates.
+
+ |
+| 10 | Adequate Sample Size | `No`<br> | Medium | Methods / Page 2: "CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation..." No formal a priori sample size calculation or statistical power evaluation is reported in the text for the 3-month pragmatic evaluation period.
+
+ |
+| 11 | Intention-to-Treat | `N/A`<br> | High | Class B item invoked. The study has no trial arms.
+
+ |
+| 12 | Balanced Table 1 | `N/A`<br> | High | Class B item invoked. The study has no randomized trial arms.
+
+ |
+| 13 | No Reverse Causation | `Yes`<br> | High | Page 2: The intervention (CADe deployment during colonoscopy) precedes the measurement of detection metrics (ADR, APC). No outcome or downstream proxy was used as an input predictor to the model.
+
+ |
+
+---
+
+## Observations
+
+* **Study Design Classification:** The study describes itself as a "retrospective pragmatic trial with historical and concurrent control subjects". Because allocation was based on geography/time (installation at the largest unit vs 5 control units) rather than randomization of individual patients or clusters, it is a non-randomized quasi-experimental implementation study. Class B rules applied accordingly.
+
+
+* **Primary Outcome Tiering:** The study explicitly acknowledges the distinction between surrogate detection rates and true clinical outcomes in the discussion, noting on page 4: *"Whether AI will reduce postcolonoscopy colorectal cancer and mortality is a critical question."* Under the decision rules in `DEFINITIONS.md`, intent and candour do not alter the score; adenoma detection rate (ADR) and adenomas per colonoscopy (APC) are Tier 3 surrogates, resulting in `No` for Item 9.

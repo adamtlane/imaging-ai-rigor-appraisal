@@ -1,0 +1,71 @@
+## First Page Verification
+
+* **First Author:** Wei-Ting Liu
+
+
+* **Journal:** Journal of the American Heart Association (J Am Heart Assoc)
+
+
+* **Year:** 2025
+
+
+* **Study Design:** Open-label, cluster randomized controlled trial
+
+
+
+**Verification Result:** All four fields match the citation details for Paper 14 (`Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST)`). Proceeding with scoring.
+
+---
+
+## Reliability Study Checklist Scoring
+
+| Item # | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1** | Yes | High | **Methods, "Development of an AI-ECG Algorithm for Detecting Atrial Fibrillation" (p. 3):** "As shown in Figure S1, we randomly selected patients into an internal validation set and further collected data from 2 additional hospitals to externally validate our AI-ECG."
+
+ |
+| **2** | No | High | **Methods, "Randomization" (p. 3):** "Each noncardiologist served as a cluster unit. Noncardiologists, including those from the internal medicine, surgery, and emergency departments, were randomized to either the intervention or control group with a 50% allocation probability." (Scored `No` per instruction rule: cluster randomisation scores `No` for item 2).
+
+ |
+| **3** | Yes | High | **Methods, "Trial Design and Ethical Statement" (p. 3):** "This study, termed CARDIOLOGIST (Computer-Assisted Atrial Fibrillation Risk Detection in Oral-Anticoagulant Use, Lowering Stroke Risk, and Optimizing Guidance With an Intelligent Screening Tool) was registered before its initiation (Clinical Trials.gov: NCT05127460)." Prespecified primary endpoints are listed in ClinicalTrials.gov record NCT05127460 and in the paper under "Primary and Secondary End Points" (p. 4).
+
+ |
+| **4** | Yes | High | **Methods, "Trial Design and Ethical Statement" (p. 3):** Registered prospectively under NCT05127460 prior to study initiation; the cluster RCT design was prespecified in the protocol/registry.
+
+ |
+| **5** | Yes | High | **Methods, "Trial Design and Ethical Statement" (p. 3):** "(Clinical Trials.gov: NCT05127460)."
+
+ |
+| **6** | No | High | **Methods, "Development of an AI-ECG Algorithm for Detecting Atrial Fibrillation" (p. 3):** "A convolutional neural network with 82 layers was used for this purpose using annotations of AF, and the technical details of the training process were similar to those in our previous studies." The model architecture is reported, but individual predictor features and their relative quantitative feature importance are not provided.
+
+ |
+| **7** | Yes | High | **Abstract, "Conclusions" (p. 1) read against Results (p. 1, 6):** "Conclusions: An AI-ECG alert for AF identification promoted non-vitamin K antagonist oral anticoagulant prescriptions among noncardiologists, thus reducing the disparity in AF care quality between cardiologists and noncardiologists." This matches the primary trial findings of a significant increase in NOAC prescription rate (23.3% vs 12.0%; HR, 1.85 [95% CI, 1.11–3.07]) and diagnosis rate.
+
+ |
+| **8** | Yes | High | **Article Information, "Disclosures" (p. 11):** "Disclosures: None." No commercial manufacturer/sponsor ownership or financial conflict of interest is declared.
+
+ |
+| **9** | No | High | **Tier 3 (Surrogate / Intermediate Clinical Finding / Process Measure).** **Methods, "Primary and Secondary End Points" (p. 4):** "The primary end points included the diagnosis rates of new-onset AF based on ICD codes; NOAC prescription for at least 7 days after discharge, irrespective of AF diagnosis; echocardiogram arrangement; and cardiologist visits, determined on the basis of their completion dates." Per `DEFINITIONS.md`, new diagnoses and prescribing/referrals are Tier 3 / Tier 2 measures; per the lowest-tier rule for primary endpoints, this scores `No`.
+
+ |
+| **10** | Yes | High | **Methods, "Sample Size" (p. 4):** "The minimum sample size required for each group was 241... Consequently, 275 and 245 were included in the intervention and the control groups, respectively (Figure 1)." Baseline assumption of 90-day NOAC rate (~17.1% to 27.7%) matched observed control rate of 12.0% to 23.3% intervention rate, meeting power targets.
+
+ |
+| **11** | Yes | High | **Methods, "Primary and Secondary End Points" & Figure 1 CONSORT (p. 4–5):** "The prespecified primary and secondary analyses were centered on patients with a high risk of AF, as identified by AI-ECG in the intervention and control groups, using an intention-to-treat design." Figure 1 shows all 275 and 245 patients identified in allocated physician clusters were included in the analytical ITT population.
+
+ |
+| **12** | Yes | High | **Results, "Participants and Their Patients' Characteristics" & Table (p. 6):** "As shown in the Table patient characteristics between the 2 groups were comparable, with the exception of a higher proportion of men in the control group than in the intervention group (48.4% versus 58.8%; P=0.018)... $CHA_2DS_2$-VASc scores were similar in both groups".
+
+ |
+| **13** | Yes | High | **Methods, "AI-ECG Alert Intervention and Blindness" (p. 3–4):** Predictors/inputs to the model consist strictly of baseline 10-second 12-lead ECG waveforms prior to outcome assessment. Outcome/downstream proxies are not used as inputs.
+
+ |
+
+---
+
+## Observations
+
+1. **Cluster Randomisation vs. Item 2 Strict Rule:** Item 2 mandates `No` for cluster randomized designs, even though physician-level cluster allocation is methodologically the appropriate design to prevent cross-contamination of physician decision-making in a clinical decision support system (CDSS) trial.
+
+
+2. **Item 9 Tier Distinction:** Although secondary endpoints included genuine Tier 4 patient outcomes (ischemic stroke, cardiovascular death, all-cause death), the primary endpoints were process measures and intermediate clinical diagnoses (NOAC prescriptions, AF diagnosis, echocardiogram arrangement, cardiologist visits). Under `DEFINITIONS.md`, the primary endpoint tier governs, yielding a `No` verdict for Item 9.

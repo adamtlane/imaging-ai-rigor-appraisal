@@ -1,0 +1,80 @@
+### Page One Verification Confirmation
+
+Before scoring, the page one details of the attached PDF were checked against the provided citation (**Zhou et al. 2023, Nature (RETFound)**):
+
+* **First Author:** Yukun Zhou
+* **Journal:** Nature
+* **Year:** 2023 (Published online 13 September 2023; Issue: Vol 622, 5 October 2023)
+* **Study Design:** Artificial intelligence foundation model development and retrospective validation/evaluation study (non-randomized ML benchmark study)
+
+All four fields agree with the recorded citation.
+
+---
+
+### Reliability Study Checklist Scoring Table
+
+| Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1** | **Yes** | **High** | **Locator:** Page 158, "Systemic diseases prediction" / Methods, Page 164, "Data for disease prognosis and prediction"<br>
+
+<br>**Quotation:** "External evaluation on the UK Biobank (Fig. 3b) showed that RETFound and SSL-Retinal performed similarly in prediction of ischaemic stroke." |
+| **2** | **No** | **High** | **Locator:** Page 157, "Discussion" / Page 164, "Ethics statement"<br>
+
+<br>**Quotation:** "MEH-MIDAS is a retrospective dataset that includes the complete ocular imaging records of 37,401 patients with diabetes who were seen at Moorfields Eye Hospital... Only de-identified retrospective data were used for research, without the active involvement of patients." |
+| **3** | **N/A** | **High** | **Class:** Class B.<br>
+
+<br>**Design Feature:** The paper contains no trial arms (it is a retrospective observational dataset evaluation study).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **4** | **N/A** | **High** | **Class:** Class B.<br>
+
+<br>**Design Feature:** The paper contains no trial arms (it is a retrospective observational dataset evaluation study).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **5** | **N/A** | **High** | **Class:** Class B.<br>
+
+<br>**Design Feature:** The paper contains no trial arms (it is a retrospective observational dataset evaluation study).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **6** | **Unclear** | **High** | **Missing Fact:** Quantitative feature importance scores or predictor attribution values for individual inputs are missing; the model interpretation relies solely on qualitative RELPROP saliency heatmaps alongside deep learning architecture descriptions.<br>
+
+<br>**Where Looked:** Methods ("RETFound architecture and implementation", "Explanations for fine-tuned models", p. 164) and Results ("Model interpretation", pp. 158–160). |
+| **7** | **N/A** | **High** | **Class:** Class C.<br>
+
+<br>**Design Feature:** The paper contains no impact evaluation at all (no clinical trial, care pathway deployment, or real-world implementation testing).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **8** | **No** | **Medium** | **Locator:** Page 164, "Competing interests"<br>
+
+<br>**Quotation:** "P.A.K. has acted as a consultant for DeepMind, Roche, Novartis, Apellis and BitFount, and is an equity owner in Big Picture Medical. He has received speaker fees from Heidelberg Engineering, Topcon, Allergan and Bayer."<br>
+
+<br>*(Note: The verdict was close between `No` and `Yes` because RETFound is an open-source academic model rather than a commercial product; however, senior author P.A.K. holds commercial consulting/equity roles and receives fees from companies whose equipment/imaging platforms are directly evaluated in the dataset).* |
+| **9** | **No** | **High** | **Tier:** Tier 1 (Model performance metric).<br>
+
+<br>**Locator:** Page 157, "Results"<br>
+
+<br>**Quotation:** "Model performance was reported using the area under the receiver operating curve (AUROC) and area under the precision-recall curve (AUPR)." |
+| **10** | **Unclear** | **High** | **Missing Fact:** A formal prospective sample size calculation or power calculation establishing target sample size and assumed baseline event rates is missing.<br>
+
+<br>**Where Looked:** Methods ("Data for disease prognosis and prediction", "Evaluation and statistical analysis", pp. 164–165).<br>
+
+<br>*(Note: Verdict was close to `No` due to the complete omission of a power calculation; `Unclear` was assigned as it is an un-powered retrospective dataset study).* |
+| **11** | **N/A** | **High** | **Class:** Class B.<br>
+
+<br>**Design Feature:** The paper contains no trial arms (it is a retrospective observational dataset evaluation study).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **12** | **N/A** | **High** | **Class:** Class B.<br>
+
+<br>**Design Feature:** The paper contains no trial arms (it is a retrospective observational dataset evaluation study).<br>
+
+<br>*(Note: N/A is available only where the item class table in the instructions permits it).* |
+| **13** | **Yes** | **High** | **Locator:** Methods, Page 164, "Data for disease prognosis and prediction"<br>
+
+<br>**Quotation:** "For each patient, we only include the retinal image from the left eye in one visit, to avoid potential bias by inconsistent individual visits." |
+
+---
+
+### Additional Observation
+
+* **Multi-cohort Evaluation Scope:** The study performs self-supervised pretraining across 1.6 million retinal images (MEH-MIDAS and public sets) and fine-tunes on distinct downstream tasks across multiple distinct datasets (e.g., AlzEye, UK Biobank, APTOS-2019, IDRID, MESSIDOR-2). While this represents extensive technical validation across several benchmark tasks, the study remains entirely retrospective (Tier 1 metrics), with no prospective clinical deployment or trial implementation to measure Tier 4 clinical impact.

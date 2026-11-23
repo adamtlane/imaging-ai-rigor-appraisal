@@ -1,0 +1,85 @@
+## Verification of Metadata
+
+* **First Author:** Michael D. Abramoff
+
+
+* **Journal:** *npj Digital Medicine*
+
+* **Year:** 2018
+
+
+* **Study Design:** Prospective observational study / diagnostic accuracy pivotal trial under an intent-to-screen paradigm
+
+
+
+**Confirmation:** All metadata items match the recorded citation for Paper 3 (`Abramoff et al. 2018, npj Digital Medicine (IDx-DR)`).
+
+---
+
+## Scoring Checklist
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| **1** | External Validation | `Yes` | High | **Locator:** Page 5, Methods ("Study design" / "Study population"). <br>
+
+<br>**Quote:** "From January 2017 to July 2017, 900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States." The locked AI model was evaluated on a completely separate prospective multi-site clinical dataset.
+
+ |
+| **2** | Patient-Level RCT | `No` | High | **Locator:** Page 5, Methods ("Study design"). <br>
+
+<br>**Quote:** "From January 2017 to July 2017, 900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States." There was no randomisation of patients to intervention/control arms.
+
+ |
+| **3** | Prespecified Endpoint | `N/A` | High | **Locator:** Item Class B. The paper is a single-arm prospective diagnostic accuracy trial with no trial arms.
+
+ |
+| **4** | Prespecified Design | `N/A` | High | **Locator:** Item Class B. The paper is a single-arm observational diagnostic accuracy trial with no trial arms.
+
+ |
+| **5** | Registered w/ CT.gov | `Yes` | High | **Locator:** Page 1, Abstract / Page 6, Acknowledgements. <br>
+
+<br>**Quote:** "Clinical Trials.gov NCT02963441"
+
+ |
+| **6** | Transparent Reporting | `No` | High | **Locator:** Page 4, Methods ("Diagnostic algorithm"). <br>
+
+<br>**Quote:** "It is a clinically-inspired algorithm, and therefore has independent, validated detectors for the lesions characteristic for DR, including microaneurysms, hemorrhages and lipoprotein exudates, the outputs of which are then fused into a disease level output, using a separately trained and validated machine learning algorithm." The paper describes the architecture/biomarker categories, but does not provide relative feature importance metrics or full parameter transparency.
+
+ |
+| **7** | Honest Impact Eval | `N/A` | High | **Locator:** Item Class C. The study evaluates diagnostic accuracy against a gold standard reference; it contains no comparative impact evaluation or clinical trial arms.
+
+ |
+| **8** | No Conflict of Interest | `No` | High | **Locator:** Page 6, Competing interests. <br>
+
+<br>**Quote:** "M.D.A. is shareholder, director, and employee of IDx, LLC, and has relevant patents and patent applications assigned to the University of Iowa... J.C.F. is shareholder of IDx, LLC."
+
+ |
+| **9** | Focus on Patient Outcomes | `No` | High | **Locator:** Tier 1 (Model performance metric / diagnostic accuracy). Page 6, Methods ("Primary and secondary outcomes"). 
+
+<br>
+
+<br>**Quote:** "The primary outcomes were the sensitivity and specificity of the AI system, which had a pre-set threshold and was locked, to detect fundus-based mtmDR + according to the FPRC grading."
+
+ |
+| **10** | Adequate Sample Size | `Yes` | High | **Locator:** Page 6, Methods ("Statistical analysis"). <br>
+
+<br>**Quote:** "Sample sizes for these hypotheses were calculated for at least 85% power and one-sided 2.5% Type 1 error, requiring samples of 149 mtmDR positive participants and 682 mtmDR negative DR participants." Page 2, Results: 198 mtmDR positive and 621 mtmDR negative participants were fully analyzed, meeting power requirements.
+
+ |
+| **11** | Intention-to-Treat | `N/A` | High | **Locator:** Item Class B. The study has no randomized trial arms.
+
+ |
+| **12** | Balanced Table 1 | `N/A` | High | **Locator:** Item Class B. Table 1 compares analyzable vs. non-analyzable subsets rather than comparative trial arms, as there are no trial arms.
+
+ |
+| **13** | No Reverse Causation | `Yes` | High | **Locator:** Page 4, Methods (" Diagnostic algorithm"). <br>
+
+<br>**Quote:** "As its input it takes four retinal images..." The input features consist solely of retinal fundus photographs captured prior to diagnostic classification.
+
+ |
+
+---
+
+## Observations
+
+* **Study Paradigm:** Although the study employs an "intent-to-screen" cohort paradigm and was registered on ClinicalTrials.gov (NCT02963441) as a pivotal registration trial for FDA authorization, it functions as a single-arm prospective diagnostic validation study rather than a comparative randomized controlled trial. Consequently, items requiring randomized arms (3, 4, 11, 12) or comparative impact evaluations (7) score as `N/A` under Class B and Class C guidelines.

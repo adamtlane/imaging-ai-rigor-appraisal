@@ -1,0 +1,103 @@
+## First-Page Citation and Metadata Verification
+
+Before scoring, the details on page 1 of the attached PDF were checked against the recorded citation:
+
+* **First Author:** Yukun Zhou (Matches "Zhou et al.")
+
+
+* **Journal:** Nature
+
+
+* **Year:** 2023 (Published online 13 September 2023; Vol 622, 5 October 2023)
+
+
+* **Study Design:** Development, fine-tuning, internal and external validation of self-supervised foundation models (RETFound) for retinal image analysis across multiple downstream diagnostic and predictive tasks (Retrospective cohort / evaluation study; no trial arms/randomisation).
+
+
+
+All four fields agree with the citation given: **Zhou et al. 2023, Nature (RETFound)**. Scoring can proceed.
+
+---
+
+## Checklist Scoring Table
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| **1** | External Validation | **Yes** | High | **Locator:** Page 157, "Systemic diseases prediction" / Page 158, Figure 3b / Page 164, "Methods: Data for disease prognosis and prediction".<br>
+
+<br>**Quotation:** "We also used UK Biobank for external evaluation in predicting systemic diseases." "For external evaluation, all patient data are used for evaluating the saved model checkpoint."
+
+ |
+| **2** | Patient-Level RCT | **No** | High | **Locator:** Page 156, Abstract & Main Text.<br>
+
+<br>**Quotation:** "MEH-MIDAS is a retrospective dataset that includes the complete ocular imaging records of 37,401 patients with diabetes..." The study is an observational/retrospective AI algorithm development and validation study with no patient-level randomisation.
+
+ |
+| **3** | Prespecified Endpoint | **N/A** | High | **Locator:** Entire paper.<br>
+
+<br>**Note:** Class B item. The paper contains no trial arms or prospective trial design (retrospective observational data validation study). Therefore, N/A is invoked as permitted by Class B.
+
+ |
+| **4** | Prespecified Design | **N/A** | High | **Locator:** Entire paper.<br>
+
+<br>**Note:** Class B item. The paper contains no trial arms or prospective trial protocol (retrospective dataset analysis). N/A is invoked as permitted by Class B.
+
+ |
+| **5** | Registered w/ CT.gov | **No** | High | **Locator:** Entire paper / Page 165, "Ethics statement".<br>
+
+<br>**Quotation:** No ClinicalTrials.gov registration identifier (NCT number) or registry trial registration is reported in the paper.
+
+ |
+| **6** | Transparent Reporting | **No** | High | **Locator:** Page 164, "RETFound architecture and implementation".<br>
+
+<br>**Quotation:** "The encoder uses a large vision Transformer (ViT-large) with 24 Transformer blocks and an embedding vector size of 1,024..." The paper describes the deep learning neural network architecture and uses saliency heatmaps (RELPROP) for qualitative explanation, but does not provide quantitative predictor feature lists or quantitative feature importance weights.
+
+ |
+| **7** | Honest Impact Eval | **N/A** | High | **Locator:** Entire paper.<br>
+
+<br>**Note:** Class C item. The paper contains no clinical impact evaluation (it is a model development and validation study on retrospective data, not a care-pathway impact trial). N/A is invoked as permitted by Class C.
+
+ |
+| **8** | No Conflict of Interest | **No** | High | **Locator:** Page 165, "Competing interests".<br>
+
+<br>**Quotation:** "P.A.K. has acted as a consultant for DeepMind, Roche, Novartis, Apellis and BitFount, and is an equity owner in Big Picture Medical. He has received speaker fees from Heidelberg Engineering, Topcon, Allergan and Bayer."
+
+ |
+| **9** | Focus on Patient Outcomes | **No** | High | **Locator:** Page 157, "Ocular disease diagnosis" / Page 165, "Methods: Evaluation and statistical analysis".<br>
+
+<br>**Quotation:** "Model performance was reported using the area under the receiver operating curve (AUROC) and area under the precision-recall curve (AUPR)."
+
+<br>
+
+<br>**Tier Assignment:** **Tier 1** (Model performance metric). All primary endpoints across the tasks are statistical discriminative performance metrics ($AUROC$, $AUPR$) evaluated on retrospective datasets.
+
+ |
+| **10** | Adequate Sample Size | **No** | High | **Locator:** Page 164–165, "Methods: Datasets..." & "Evaluation and statistical analysis".<br>
+
+<br>**Quotation:** The Methods section describes dataset sample sizes and numbers, but contains no sample size power calculations or baseline rate assumptions for sample size determination.
+
+ |
+| **11** | Intention-to-Treat | **N/A** | High | **Locator:** Entire paper.<br>
+
+<br>**Note:** Class B item. The study has no randomised trial arms. N/A is invoked as permitted by Class B.
+
+ |
+| **12** | Balanced Table 1 | **N/A** | High | **Locator:** Entire paper.<br>
+
+<br>**Note:** Class B item. The study has no randomised trial arms to compare baseline characteristics across. N/A is invoked as permitted by Class B.
+
+ |
+| **13** | No Reverse Causation | **Yes** | High | **Locator:** Page 164, "Methods: Data for disease prognosis and prediction".<br>
+
+<br>**Quotation:** "819 patients have retinal imaging within 1 year before their fellow eyes convert to wet-AMD..." and "The final category of tasks studies the 3-year prediction of systemic diseases... using the MEH-AlzEye and UK Biobank." Images were captured prior to the outcome occurrence time windows.
+
+ |
+
+---
+
+## Observations
+
+1. **Multi-Task & Multi-Dataset Structure:** RETFound is evaluated across 8 diagnostic datasets (e.g., APTOS-2019, IDRID, MESSIDOR-2), 1 prognosis task (fellow eye conversion to wet-AMD), and 4 systemic prediction tasks (stroke, MI, heart failure, Parkinson's). Across all these tasks, model performance metrics ($AUROC$ / $AUPR$) on retrospective datasets serve as the primary metrics (Tier 1 for Item 9).
+
+
+2. **Close Verdicts / Alternative Consideration:** Item 6 was considered for `Unclear` due to the inclusion of RELPROP attention/relevance heatmaps. However, per the decision rules in the rating instructions ("Unclear if partial, for example saliency maps with no quantitative importance" and "No if the model is described only as an architecture"), `No` is the precise verdict required because vision transformers operate as black-box representation learners without explicit predictor importance lists or weights.

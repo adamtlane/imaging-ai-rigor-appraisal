@@ -1,0 +1,133 @@
+## Citation Verification
+
+Prior to scoring, the metadata on page 1 of the attached PDF was verified against the recording citation:
+
+* **First Author:** Wei-Ting Liu
+
+
+* **Journal:** Journal of the American Heart Association (J Am Heart Assoc)
+
+
+* **Year:** 2025
+
+
+* **Study Design:** Open-label, cluster randomized controlled trial
+
+
+
+**Verification Result:** Confirmed. All four fields match the citation record (*Liu et al. 2025, J Am Heart Assoc [CARDIOLOGIST]*).
+
+---
+
+## Reliability Appraisal Checklist
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| **1** | External Validation | **Yes** | High | **Locator:** Methods ("Development of an AI-ECG Algorithm for Detecting Atrial Fibrillation", Page 3).
+
+<br>
+
+<br>**Quote:** "As shown in Figure S1, we randomly selected patients into an internal validation set and further collected data from 2 additional hospitals to externally validate our AI-ECG."
+
+ |
+| **2** | Patient-Level RCT | **No** | High | **Locator:** Methods ("Randomization", Page 3).
+
+<br>
+
+<br>**Quote:** "Each noncardiologist served as a cluster unit."
+
+<br>
+
+<br>*Note:* Cluster randomisation automatically scores `No` per item instructions. |
+| **3** | Prespecified Endpoint | **Yes** | High | **Locator:** Methods ("Trial Design and Ethical Statement", Page 3).
+
+<br>
+
+<br>**Quote:** "This study, termed CARDIOLOGIST... was registered before its initiation (Clinical Trials.gov: NCT05127460)."
+
+ |
+| **4** | Prespecified Design | **Yes** | High | **Locator:** Methods ("Trial Design and Ethical Statement", Page 3).
+
+<br>
+
+<br>**Quote:** "This study, termed CARDIOLOGIST... was registered before its initiation (Clinical Trials.gov: NCT05127460)."
+
+ |
+| **5** | Registered w/ CT.gov | **Yes** | High | **Locator:** Methods ("Trial Design and Ethical Statement", Page 3).
+
+<br>
+
+<br>**Quote:** "(Clinical Trials.gov: NCT05127460)."
+
+ |
+| **6** | Transparent Reporting | **No** | High | **Locator:** Methods ("Development of an AI-ECG Algorithm for Detecting Atrial Fibrillation", Page 3).
+
+<br>
+
+<br>**Quote:** "A convolutional neural network with 82 layers was used for this purpose using annotations of AF, and the technical details of the training process were similar to those in our previous studies.15-17"
+
+<br>
+
+<br>*Note:* The paper describes the model architecture and training setup, but does not report specific predictors or quantitative predictor importance. |
+| **7** | Honest Impact Eval | **Yes** | High | **Locator:** Page 1 ("Abstract Conclusions").
+
+<br>
+
+<br>**Quote:** "An AI-ECG alert for AF identification promoted non-vitamin K antagonist oral anticoagulant prescriptions among noncardiologists, thus reducing the disparity in AF care quality between cardiologists and noncardiologists."
+
+ |
+| **8** | No Conflict of Interest | **Yes** | High | **Locator:** Page 11 ("Disclosures").
+
+<br>
+
+<br>**Quote:** "None."
+
+ |
+| **9** | Focus on Patient Outcomes | **No** | High | **Locator:** Methods ("Primary and Secondary End Points", Page 4).
+
+<br>
+
+<br>**Quote:** "The primary end points included the diagnosis rates of new-onset AF based on ICD codes; NOAC prescription for at least 7 days after discharge, irrespective of AF diagnosis; echocardiogram arrangement; and cardiologist visits, determined on the basis of their completion dates."
+
+<br>
+
+<br>*Note:* Tier 2 (process measures: NOAC prescribing, echo arrangement, cardiologist visits) and Tier 3 (surrogate/intermediate clinical finding: new-onset AF diagnosis rate). Per `DEFINITIONS.md`, composite/multiple primary endpoints take the lowest tier, requiring Tier 4 for a `Yes`.
+
+ |
+| **10** | Adequate Sample Size | **Yes** | High | **Locator:** Methods ("Sample Size", Page 4).
+
+<br>
+
+<br>**Quote:** "The minimum sample size required for each group was 241... Consequently, 275 and 245 were included in the intervention and the control groups, respectively (Figure 1)."
+
+ |
+| **11** | Intention-to-Treat | **Yes** | High | **Locator:** Methods ("Primary and Secondary End Points", Page 4).
+
+<br>
+
+<br>**Quote:** "The prespecified primary and secondary analyses were centered on patients with a high risk of AF, as identified by AI-ECG in the intervention and control groups, using an intention-to-treat design."
+
+ |
+| **12** | Balanced Table 1 | **Yes** | High | **Locator:** Results ("Participants and Their Patients' Characteristics", Page 6).
+
+<br>
+
+<br>**Quote:** "As shown in the Table patient characteristics between the 2 groups were comparable, with the exception of a higher proportion of men in the control group than in the intervention group"
+
+ |
+| **13** | No Reverse Causation | **Yes** | High | **Locator:** Methods ("Development of an AI-ECG Algorithm for Detecting Atrial Fibrillation", Page 3).
+
+<br>
+
+<br>**Quote:** "ECGs were acquired using a Philips 12-lead ECG machine (model PH080A) with a sampling rate of 500 Hertz and a duration of 10 seconds."
+
+ |
+
+---
+
+## Observations
+
+* **Cluster Randomisation vs. Patient Outcome Identification:** While the trial evaluates an AI decision support tool allocated at the physician level (cluster RCT), secondary clinical outcomes such as ischemic stroke, cardiovascular death, and all-cause death were evaluated. However, because Item 9 strictly evaluates the primary endpoints (prescribing rates and diagnosis rates, which sit at Tiers 2 and 3), the paper receives `No` for Item 9 per the operational definitions.
+
+
+* **Baseline Rate Deviation in Sample Size:** The trial assumed a baseline control prescription rate of 17.1% (based on prior literature), but observed a control rate of 12.0%. Because both arms successfully met and exceeded the prespecified sample size requirement of 241 patients per group (275 vs. 245), Item 10 is scored `Yes`.

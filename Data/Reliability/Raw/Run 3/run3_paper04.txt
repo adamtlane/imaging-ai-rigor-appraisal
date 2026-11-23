@@ -1,0 +1,127 @@
+## Pre-Scoring Verification
+
+* **First Author:** Rawen Kader
+
+
+* **Journal:** npj Digital Medicine
+
+
+* **Year:** 2026 (Issue/citation line: `npj Digital Medicine | (2026)9:84`; DOI contains `2025`: `10.1038/s41746-025-02270-1`)
+
+
+* **Study Design:** Randomized Controlled Trial (parallel-group RCT)
+
+
+
+**Verification Result:** Confirmed. All four metadata fields agree with the recorded citation and manifest guidelines.
+
+---
+
+## Scoring Checklist
+
+| Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1. External Validation** | `Yes` | High | **Locator:** Methods, "CADDIE system" (p. 6) / "Study design" (p. 7).
+
+<br>
+
+<br>**Quotation:** "The CADe convolutional neural network (CNN) algorithm was developed with over 1000 histologically confirmed polyps..." and "The EAGLE study is a prospective, multi-center, parallel-group RCT conducted in eight European centers: Italy (n = 3), Poland (n = 3), Germany (n = 1) and Spain (n = 1)".
+
+ |
+| **2. Patient-Level RCT** | `Yes` | High | **Locator:** Methods, "Randomization and masking" (p. 7).
+
+<br>
+
+<br>**Quotation:** "Recruiting research staff at each site, randomized patients immediately before colonoscopy, assigning patients in a 1:1 ratio in blocks of four to CADDIE-assisted colonoscopy (CADe-arm) or standard colonoscopy (SoC-arm)."
+
+ |
+| **3. Prespecified Endpoint** | `Yes` | High | **Locator:** Methods, "Study design" (p. 7) / Abstract (p. 1).
+
+<br>
+
+<br>**Quotation:** "The study was registered on ClinicalTrials.gov (NCT05730192) on 15th February 2023..." Co-primary endpoints (APC and PPA) were explicitly fixed prior to trial execution.
+
+ |
+| **4. Prespecified Design** | `Yes` | High | **Locator:** Methods, "Study design" (p. 7).
+
+<br>
+
+<br>**Quotation:** "The EAGLE study is a prospective, multi-center, parallel-group RCT conducted in eight European centers... registered on ClinicalTrials.gov (NCT05730192)..."
+
+ |
+| **5. Registered w/ CT.gov** | `Yes` | High | **Locator:** Abstract (p. 1) / Methods, "Study design" (p. 7).
+
+<br>
+
+<br>**Quotation:** "ClinicalTrials.gov (NCT05730192[15/02/2023])."
+
+ |
+| **6. Transparent Reporting** | `No` | High | **Locator:** Methods, "CADDIE system" (p. 6).
+
+<br>
+
+<br>**Quotation:** "The CADe convolutional neural network (CNN) algorithm was developed with over 1000 histologically confirmed polyps..." The model is reported purely as a CNN architecture without listing predictor features or feature importance weights.
+
+ |
+| **7. Honest Impact Eval** | `Yes` | High | **Locator:** Abstract (p. 1) / Results (p. 3) / Discussion (p. 5–6).
+
+<br>
+
+<br>**Quotation:** "In summary, the emergence of real-time cloud AI endoscopy represents a paradigm shift... This paper presented a multi-country, multi-center RCT demonstrating the feasibility, efficacy, and safety of a real-time cloud-based polyp CADe system in endoscopy." Abstract claims reflect observed trial metrics.
+
+ |
+| **8. No Conflict of Interest** | `No` | High | **Locator:** "Competing interests" / "Role of the funding source" (p. 8, 10).
+
+<br>
+
+<br>**Quotation:** "R.K., L.B.L, C.H., A.R., and M.R. have received medical consultancy fees from Odin Medical Ltd." and "The study funder and sponsor, Odin Medical Ltd., provided the CADe system and assisted in the study design."
+
+ |
+| **9. Focus on Patient Outcomes** | `No` | High | **Tier:** Tier 3 (Surrogate or intermediate clinical finding).
+
+<br>
+
+<br>**Locator:** Methods, "Clinical outcome measures" (p. 8).
+
+<br>
+
+<br>**Quotation:** "The study assessed two co-primary endpoints. The primary efficacy outcome was the mean Adenomas Per Colonoscopy (APC)... the co-primary safety endpoint was Percent Positive Agreement (PPA)..." *Note:* APC and PPA are lesion detection and diagnostic metrics (Tier 3), not genuine direct patient outcomes (Tier 4).
+
+ |
+| **10. Adequate Sample Size** | `No` | High | **Locator:** Methods, "Statistical analysis" (p. 8).
+
+<br>
+
+<br>**Quotation:** "The study was powered to detect an APC increase from 0.83 to 1.02, with the mean value in the control arm estimated to be 0.83... Accounting for a 10% dropout rate, the planned sample size was 946 patients." *Close Verdict Note:* Marked `No` because the assumed baseline control APC rate (0.83) was substantially higher than the observed control APC rate (0.62), contradicting the baseline assumption powering the calculation.
+
+ |
+| **11. Intention-to-Treat** | `No` | High | **Locator:** Methods, "Statistical analysis" (p. 8) / Results, Fig. 1 (p. 2).
+
+<br>
+
+<br>**Quotation:** "The study was analyzed using the modified intention to treat (mITT) population per-protocol... Of those randomized, 132 patients were excluded (13.6%)..." Exclusions occurred post-randomization.
+
+ |
+| **12. Balanced Table 1** | `Yes` | High | **Locator:** Results (p. 3) / Supplementary Table 3.
+
+<br>
+
+<br>**Quotation:** "The analyzed study population included 841 patients (417 CADe-arm, 424 SoC-arm)... No statistical difference was observed between study arms regarding patients' demographics, colonoscopy indication..." Baseline patient characteristics were balanced between trial arms.
+
+ |
+| **13. No Reverse Causation** | `Yes` | High | **Locator:** Methods, "CADDIE system" (p. 6–7).
+
+<br>
+
+<br>**Quotation:** "CADDIE integrates with standard endoscopy equipment... for real-time acquisition of the colonoscopy video feed from the endoscopy image processor (EIP)." Video frame inputs fed into the real-time AI model contain no downstream outcome variables.
+
+ |
+
+---
+
+## Observations Beyond the Checklist
+
+* **Sample Size / Baseline Discrepancy:** The trial's power calculation assumed a control arm baseline APC of $0.83$. In the actual study, the control arm achieved an APC of $0.62 \pm 1.19$. Because the baseline event rate was materially lower than assumed, the statistical power assumed *a priori* was altered in practice, triggering a `No` on Item 10 under the specified decision rules.
+
+
+* **Excluded Post-Randomization Cases:** A total of 973 participants were randomized, but 132 patients ($13.6\%$) were excluded post-randomization across multiple stages (e.g., inadequate bowel prep, withdrawal time $<6$ minutes, unapproved scope models). Analysis was performed on a modified intention-to-treat / per-protocol cohort ($n=841$), which fails the strict full ITT criterion for Item 11.

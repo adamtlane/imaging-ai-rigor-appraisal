@@ -1,0 +1,10 @@
+scope,statistic,value,n_cells,note
+substantive,percent_agreement,0.8297872340425532,47,
+substantive,cohen_kappa,0.686143572621035,47,substantial
+substantive,kappa_se,0.10108097164087215,47,
+substantive,pabak,0.7446808510638299,47,
+substantive,gwet_ac1,0.7669301100263443,47,
+all_four,percent_agreement,0.7230769230769231,65,
+all_four,cohen_kappa,0.5910520796924151,65,moderate
+all_four,pabak,0.6307692307692307,65,
+all_four,gwet_ac1,0.6431294799450968,65,

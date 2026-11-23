@@ -1,0 +1,25 @@
+# Capstone: AI Imaging Appraisal
+# Everything runs as notebooks under Notebooks/. Versions are the ones the
+# analysis was actually executed against on 28 July 2026, Python 3.13.14.
+
+# notebook runtime
+ipykernel==7.1.0
+jupyter-core==5.9.1
+nbformat==5.10.4
+
+# score_papers.ipynb           evidence extraction from the PDFs
+pdfplumber==0.11.9
+openpyxl==3.1.5
+
+# refresh_tracker.ipynb        rebuilds the Summary tab and the CSV exports
+#                              (needs openpyxl only, listed above)
+
+# confidence_intervals.ipynb   interval estimation and the forest plot
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+matplotlib==3.10.8
+
+# build_manuscript.ipynb       manuscript.md to manuscript.docx, added 8 August 2026
+#                              Before this date the .docx had no build path in the repository.
+python-docx==1.2.0

@@ -1,0 +1,78 @@
+## Citation and Study Identification Verification
+
+Before scoring, the details on page 1 of the attached PDF were checked against the provided citation:
+
+* **First Author:** Yukun Zhou (Matches "Zhou et al.")
+* **Journal:** Nature
+* **Year:** 2023 (Published online 13 September 2023 / Issue 5 October 2023)
+* **Study Design:** Development, self-supervised pretraining, and validation/evaluation of a foundational deep learning model (RETFound) using retrospective ocular imaging and linked health datasets (Not a prospective randomized controlled trial).
+
+All four fields match the citation provided (`Zhou et al. 2023, Nature (RETFound)`).
+
+---
+
+## Reliability Study Checklist Evaluation Table
+
+| Item | Item Name | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| **1** | External Validation | **Yes** | High | **Section:** "Ocular disease diagnosis", "Systemic diseases prediction", and "Methods - Data for disease prognosis and prediction" (pp. 157–158, 164). <br>
+
+<br>**Locator & Citation:** Page 158: "External evaluation on the UK Biobank (Fig. 3b) showed that RETFound and SSL-Retinal performed similarly in prediction of ischaemic stroke."
+
+ |
+| **2** | Patient-Level RCT | **No** | High | **Section:** "Methods - Datasets for developing RETFound" & "Methods - Data for disease prognosis and prediction" (p. 164). <br>
+
+<br>**Locator & Quotation:** Page 157: "MEH-MIDAS is a retrospective dataset that includes the complete ocular imaging records of 37,401 patients... MEH-AlzEye is a retrospective cohort study linking ophthalmic data... with systemic health data". No randomisation of individual patients took place.
+
+ |
+| **3** | Prespecified Endpoint | **N/A** | High | **Class:** Class B (Items 3, 4, 5, 11, 12). <br>
+
+<br>**Trigger:** The paper has no trial arms; it is a retrospective model development and evaluation observational study. |
+| **4** | Prespecified Design | **N/A** | High | **Class:** Class B (Items 3, 4, 5, 11, 12). <br>
+
+<br>**Trigger:** The paper has no trial arms. |
+| **5** | Registered w/ CT.gov | **N/A** | High | **Class:** Class B (Items 3, 4, 5, 11, 12). <br>
+
+<br>**Trigger:** The paper has no trial arms. |
+| **6** | Transparent Reporting | **No** | High | **Section:** "RETFound architecture and implementation" (p. 164). <br>
+
+<br>**Locator & Quotation:** Page 164: "The encoder uses a large vision Transformer (ViT-large) with 24 Transformer blocks and an embedding vector size of 1,024, whereas the decoder is a small vision Transformer (ViT-small) with 8 Transformer blocks...". Predictors/feature weights and their quantitative relative importance are not reported (the model is described as a neural network architecture with qualitative saliency heatmaps).
+
+ |
+| **7** | Honest Impact Eval | **N/A** | High | **Class:** Class C (Item 7). <br>
+
+<br>**Trigger:** The paper contains no impact evaluation at all (it is an offline diagnostic/prognostic algorithm accuracy study without implementation or clinical care pathway evaluation). |
+| **8** | No Conflict of Interest | **No** | High | **Section:** "Competing interests" (p. 164). <br>
+
+<br>**Locator & Quotation:** Page 164: "P.A.K. has acted as a consultant for DeepMind, Roche, Novartis, Apellis and BitFount, and is an equity owner in Big Picture Medical. He has received speaker fees from Heidelberg Engineering, Topcon, Allergan and Bayer."
+
+ |
+| **9** | Focus on Patient Outcomes | **No** | High | **Tier Assigned:** Tier 1 (Model performance metric). <br>
+
+<br>**Section:** "Abstract" & "Methods - Evaluation and statistical analysis" (pp. 156, 164). <br>
+
+<br>**Locator & Quotation:** Page 157: "Model performance was reported using the area under the receiver operating curve (AUROC) and area under the precision-recall curve (AUPR)."
+
+ |
+| **10** | Adequate Sample Size | **No** | High | **Section:** "Methods - Evaluation and statistical analysis" (p. 164). <br>
+
+<br>**Locator & Quotation:** The paper reports no statistical power calculation or sample size calculation prior to study conduct. Page 164 describes dataset splits and evaluation without a sample size power justification: "For internal evaluation, we split the patient groups into training, validation and test sets at a ratio of 55:15:30%."
+
+ |
+| **11** | Intention-to-Treat | **N/A** | High | **Class:** Class B (Items 3, 4, 5, 11, 12). <br>
+
+<br>**Trigger:** The paper has no trial arms. |
+| **12** | Balanced Table 1 | **N/A** | High | **Class:** Class B (Items 3, 4, 5, 11, 12). <br>
+
+<br>**Trigger:** The paper has no trial arms. |
+| **13** | No Reverse Causation | **Yes** | High | **Section:** "Ocular disease prognosis" & "Systemic diseases prediction" (pp. 157–158). <br>
+
+<br>**Locator & Quotation:** Page 157: "...specifically conversion of contralateral ('fellow') eyes to neovascular ('wet') AMD in a 1-year time period and, finally, oculomic challenges, specifically the 3-year prediction of cardiovascular diseases... and a neurodegenerative disease...". Model inputs are baseline retinal images captured prior to the outcome window.
+
+ |
+
+---
+
+## Observations
+
+* **Model Performance vs. Patient Outcomes (Item 9):** Although the downstream predictive targets include major clinical events (such as incident myocardial infarction, stroke, and Parkinson's disease), per the operational definitions in `DEFINITIONS.md`, retrospective evaluation of discrimination (AUROC/AUPR) remains **Tier 1** because no patient's care pathway or outcome was modified by the model during the study.

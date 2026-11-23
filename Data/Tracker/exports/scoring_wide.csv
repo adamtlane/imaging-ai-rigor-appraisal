@@ -1,0 +1,16 @@
+﻿#,Domain,set,Citation,External Validation,Patient-Level RCT,Prespecified Endpoint,Prespecified Design,Registered w/ CT.gov,Transparent Reporting,Honest Impact Eval,No Conflict of Interest,Focus on Patient Outcomes,Adequate Sample Size,Intention-to-Treat,Balanced Table 1,No Reverse Causation,Yes,Scoreable,Rate
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",Yes,No,N/A,N/A,N/A,No,N/A,Yes,No,N/A,N/A,N/A,N/A,2,5,0.4
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",Yes,Yes,Yes,Yes,Yes,No,Unclear,No,No,Yes,Yes,Yes,Yes,9,13,0.6923
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",Yes,No,Yes,Yes,Yes,Unclear,N/A,No,No,Yes,Yes,N/A,Yes,7,11,0.6364
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,9,13,0.6923
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",Yes,Yes,Unclear,Unclear,No,No,Yes,Yes,No,No,Yes,Yes,Yes,7,13,0.5385
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",Yes,Yes,Yes,Unclear,Yes,No,Yes,No,No,No,Unclear,Yes,Yes,7,13,0.5385
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,9,13,0.6923
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",Yes,No,Unclear,Unclear,No,No,Yes,No,No,Unclear,N/A,Yes,Yes,4,12,0.3333
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",Yes,Yes,Yes,Yes,Unclear,No,Yes,Yes,No,No,Yes,No,Yes,8,13,0.6154
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",Yes,Yes,Yes,Yes,Yes,Unclear,Yes,No,Yes,Yes,Yes,Yes,Yes,11,13,0.8462
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Unclear,Yes,8,13,0.6154
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",Yes,Yes,No,No,Yes,No,Yes,Unclear,No,Yes,Yes,Yes,Yes,8,13,0.6154
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,11,13,0.8462
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",Yes,No,Yes,Yes,Yes,No,Yes,Unclear,No,Yes,Yes,Yes,Yes,9,13,0.6923
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",Unclear,Yes,Yes,Yes,Unclear,Unclear,Yes,No,No,Yes,Yes,Yes,Yes,8,13,0.6154

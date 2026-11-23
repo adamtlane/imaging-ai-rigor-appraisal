@@ -1,0 +1,70 @@
+## Preliminary Check
+
+Before scoring, the four required fields were checked against page 1 of the attached PDF:
+
+* **First Author:** Uri Ladabaum (Matches)
+
+
+* **Journal:** Gastroenterology (Matches)
+
+
+* **Year:** 2023 (Matches)
+
+
+* **Study Design:** Retrospective pragmatic trial with historical and concurrent control subjects (Matches)
+
+
+
+All four fields match the recorded citation and metadata. Scoring proceeds below.
+
+---
+
+## Reliability Checklist Scoring
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| 1 | External Validation | No | High | Page 2, "Methods": "We conducted a retrospective pragmatic trial with historical and concurrent control subjects. CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation... Our system's 5 other units served as control sites." The study evaluates a commercially available AI tool (GI Genius) in routine practice rather than validating or fitting a predictive model on split/external validation cohorts.
+
+ |
+| 2 | Patient-Level RCT | No | High | Page 2, "Methods": "We conducted a retrospective pragmatic trial with historical and concurrent control subjects. CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation... Our system's 5 other units served as control sites." Allocation was non-randomised and site/time-based.
+
+ |
+| 3 | Prespecified Endpoint | N/A | High | Class B item invoked. The study has no randomised trial arms (it is a non-randomised retrospective implementation study with historical and concurrent controls).
+
+ |
+| 4 | Prespecified Design | N/A | High | Class B item invoked. The study has no randomised trial arms (it is a non-randomised retrospective implementation study with historical and concurrent controls).
+
+ |
+| 5 | Registered w/ CT.gov | N/A | High | Class B item invoked. The study has no randomised trial arms (it is a non-randomised retrospective implementation study with historical and concurrent controls).
+
+ |
+| 6 | Transparent Reporting | No | High | Page 2, "Methods": "The first CADe device approved in the United States (GI Genius; Medtronic, Minneapolis, MN)..." The paper evaluates a commercial black-box device; feature weights or relative predictor importances are not provided or reported.
+
+ |
+| 7 | Honest Impact Eval | Yes | High | Page 2, "Abstract/Main Text": "We hypothesized that lesion detection rates would be higher... with vs without CADe." Page 4, "Summary": "In summary, our results contrast sharply with those of randomized trials. In real-world practice, CADe implementation without attention to endoscopist inclination and behavior may not achieve the intended results." The abstract/summary accurately reflects the observed null result.
+
+ |
+| 8 | No Conflict of Interest | No | High | Page 1, "Conflicts of interest": "Uri Ladabaum is on the advisory board for UniversalDx and Lean Medical, and is a consultant for Medtronic, Clinical Genomics, Guardant Health, Freenome, and Geneoscopy." Medtronic is the manufacturer of the evaluated GI Genius device.
+
+ |
+| 9 | Focus on Patient Outcomes | No | High | Tier 3 surrogate outcome. Page 2, "Methods": "...we analyzed whether quality metrics changed as hypothesized... We hypothesized that lesion detection rates would be higher..." The primary outcomes are adenoma detection rate (ADR) and adenomas per colonoscopy (APC), which are diagnostic/detection yield metrics (Tier 3).
+
+ |
+| 10 | Adequate Sample Size | No | Medium | Page 2, "Methods": "During the implementation period, CADe was used in 1008 of 1037 (97.2%) eligible colonoscopies. Of these, 619 were performed for screening/surveillance by 24 endoscopists who participate in our quality assurance program." No formal prospective power calculation or pre-specified sample size target is reported in the main text or methods summary.
+
+ |
+| 11 | Intention-to-Treat | N/A | High | Class B item invoked. The study has no randomised trial arms.
+
+ |
+| 12 | Balanced Table 1 | Yes | High | Page 2, "Results": "The implementation and preimplementation period study cohorts in the CADe and control sites were comparable across demographics and colonoscopy indications (Supplementary Table 1)." Baseline patient characteristics are provided across implementation and control groups in Supplementary Table 1.
+
+ |
+| 13 | No Reverse Causation | Yes | High | Page 2, "Methods": "...analyzed whether quality metrics changed as hypothesized in the CADe site, compared with control sites, during the implementation vs preimplementation periods, matching each endoscopist's number of colonoscopies." Outcomes (detection of adenomas) were measured during/after the procedure and were not fed back as inputs into the CADe model prior to detection.
+
+ |
+
+---
+
+## Additional Observations
+
+* **Design Classification & Item Class Rules:** Although this paper uses the word "trial" in its title ("Computer-aided Detection of Polyps Does Not Improve Colonoscopist Performance in a Pragmatic Implementation Trial"), it is explicitly a retrospective quasi-experimental difference-in-differences implementation study using historical and concurrent site controls without participant or cluster randomisation. Under the provided rater instructions, Class B items (Items 3, 4, 5, 11, and 12) permit `N/A` when a paper has no trial arms. Class B items 3, 4, 5, and 11 were marked `N/A` on this basis. Item 12 was marked `Yes` because baseline comparison tables across study periods and control sites were provided (Supplementary Table 1).

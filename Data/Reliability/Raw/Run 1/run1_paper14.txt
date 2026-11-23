@@ -1,0 +1,77 @@
+## Initial Verification Check
+
+Before scoring, the details on page 1 of the attached PDF were checked against the citation provided in the prompt:
+
+* **First Author:** Wei-Ting Liu
+
+
+* **Journal:** Journal of the American Heart Association (J Am Heart Assoc)
+
+
+* **Year:** 2025
+
+
+* **Study Design:** Open-label, cluster randomized controlled trial ("In this open-label, cluster randomized controlled trial (NCT05127460)...")
+
+
+
+The metadata in the PDF matches the citation provided: **Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST)**. Scoring proceeds below.
+
+---
+
+## Reliability Study Checklist Scoring Table
+
+| Item # | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1** | Yes | High | **Methods ("Development of an AI-ECG Algorithm...", page 3):** "As shown in Figure S1, we randomly selected patients into an internal validation set and further collected data from 2 additional hospitals to externally validate our AI-ECG."
+
+ |
+| **2** | No | High | **Methods ("Randomization", page 3):** "Each noncardiologist served as a cluster unit. Noncardiologists... were randomized to either the intervention or control group..." *Note: Cluster randomized design fails Item 2 per decision rules.*
+
+ |
+| **3** | Yes | High | **Methods ("Trial Design and Ethical Statement", page 3):** Registered prior to trial initiation at ClinicalTrials.gov under identifier NCT05127460. **Methods ("Primary and Secondary End Points", page 4):** "The prespecified primary and secondary analyses were centered on patients with a high risk of AF, as identified by AI-ECG in the intervention and control groups..."
+
+ |
+| **4** | Yes | High | **Methods ("Trial Design and Ethical Statement", page 3):** Registered prior to trial initiation (NCT05127460). **Methods ("Randomization", "AI-ECG Alert Intervention...", pages 3–4):** Cluster randomized design and intervention workflow fixed prior to execution.
+
+ |
+| **5** | Yes | High | **Abstract / Registration (page 1) & Methods (page 3):** "Unique identifier: NCT05127460." "This study... was registered before its initiation (ClinicalTrials.gov: NCT05127460)."
+
+ |
+| **6** | No | High | **Methods ("Development of an AI-ECG Algorithm...", page 3):** "A convolutional neural network with 82 layers was used for this purpose using annotations of AF, and the technical details of the training process were similar to those in our previous studies." Predictor feature definitions and relative feature importances are not provided; only neural network architecture/training process is referenced.
+
+ |
+| **7** | Yes | High | **Abstract Conclusions (page 1):** "An AI-ECG alert for AF identification promoted non-vitamin K antagonist oral anticoagulant prescriptions among noncardiologists, thus reducing the disparity in AF care quality between cardiologists and noncardiologists." **Discussion (page 9):** "In summary, the AI-ECG alert for AF identification serves as a practical CDSS, effectively improving the prescription of NOACs by noncardiologists." Matches observed primary outcome (NOAC prescription HR 1.85, p=0.016) while accurately stating secondary clinical endpoints showed no significant difference.
+
+ |
+| **8** | Yes | High | **Disclosures (page 11):** "None." **Sources of Funding (pages 10–11):** Supported by institutional grants (Tri-Service General Hospital, Ministry of Science and Technology Taiwan, Cheng Hsin General Hospital Foundation, Medical Affairs Bureau, National Defense Medical Center) with no commercial entity sponsorship.
+
+ |
+| **9** | No | High | **Tier assigned:** Tier 2 (Process measure) & Tier 3 (Surrogate / intermediate clinical finding).
+
+<br>
+
+<br>**Methods ("Primary and Secondary End Points", page 4):** "The primary end points included the diagnosis rates of new-onset AF based on ICD codes; NOAC prescription for at least 7 days after discharge, irrespective of AF diagnosis; echocardiogram arrangement; and cardiologist visits..." Note: Under decision rules, diagnosing a disease (Tier 3) and prescribing/referring (Tier 2) are not Tier 4 patient outcomes. Composite/multiple primary endpoints take the lowest tier. Primary endpoint fails Item 9.
+
+ |
+| **10** | Yes | High | **Methods ("Sample Size", page 4):** "The minimum sample size required for each group was 241... The trial concluded on October 31, 2022, when the total number of AF alerts reached 275. Consequently, 275 and 245 were included in the intervention and the control groups, respectively". Assumed baseline rate (17.1%) closely matched observed control rate (12.0% NOAC prescription).
+
+ |
+| **11** | No | High | **Methods ("AI-ECG Alert Intervention and Blindness", page 3):** Exclusions were applied to patients post-ECG acquisition based on clinical criteria prior to cohort formation. **Figure 1 (page 5):** Out of 233 physicians randomized, 8,857 and 8,960 eligible patients were screened, but primary analysis was restricted to 275 and 245 patients with high-likelihood AF ECGs, excluding patients with follow-up < 90 days or non-alert ECGs from primary analysis.
+
+ |
+| **12** | Yes | High | **Table ("Baseline Characteristics", page 6):** Baseline patient characteristics across intervention (n=275) and control (n=245) groups show overall comparability across clinical indicators ($CHA_2DS_2$-VASc 3.6 vs 3.5, p=0.481; HAS-BLED 2.05 vs 1.95, p=0.293) despite minor differences in male proportion (48.4% vs 58.8%, p=0.018).
+
+ |
+| **13** | Yes | High | **Methods ("AI-ECG Alert Intervention...", page 3):** Predictors used by the deep learning model are derived from raw 10-second 12-lead ECG signals recorded during hospitalization or ED presentation, preceding outcome observation windows (90-day follow-up).
+
+ |
+
+---
+
+## Observations Beyond the 13 Items
+
+1. **Clarity on Primary vs. Secondary Outcomes:** The study's prespecified primary endpoints (new AF diagnosis, NOAC prescription, echocardiogram arrangement, cardiologist visits) are predominantly behavioral and diagnostic process measures. While hard patient outcome measures (all-cause mortality, cardiovascular death, ischemic stroke) were evaluated as secondary endpoints, they did not reach statistical significance.
+
+
+2. **Cluster Randomization Unit Disconnect:** While physicians (clusters) were randomized 1:1 to intervention or control, the primary outcome analysis evaluated patient-level events (n=275 vs n=245) using mixed-effects Cox proportional hazards modeling with physicians as a random factor.

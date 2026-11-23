@@ -1,0 +1,71 @@
+## Preliminary Verification
+
+* **First Author:** Michael D. Abramoff
+
+
+* **Journal:** npj Digital Medicine
+
+
+* **Year:** 2018
+
+
+* **Study Design:** Prospective, observational, single-arm diagnostic accuracy trial ("observational study", "intent-to-screen study design")
+
+
+
+**Verification Status:** All four fields match the citation (*Abramoff et al. 2018, npj Digital Medicine (IDx-DR)*). Proceeding to checklist evaluation.
+
+---
+
+## Scoring Checklist Table
+
+| Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1. External Validation** | Yes | High | **Locator:** Page 5, "Study design" section. **Quote:** "From January 2017 to July 2017, 900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States." The diagnostic performance of the pre-locked AI model was prospectively evaluated on a completely separate multi-center clinical cohort.
+
+ |
+| **2. Patient-Level RCT** | No | High | **Locator:** Page 5, "Study design" section. **Quote:** "From January 2017 to July 2017, 900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States." This was a single-arm prospective diagnostic accuracy trial with no randomisation.
+
+ |
+| **3. Prespecified Endpoint** | N/A | High | **Locator:** Page 5, "Study design" section. **Class/Design:** Invoking Class B. The paper has no trial arms (single-arm observational diagnostic accuracy study).
+
+ |
+| **4. Prespecified Design** | N/A | High | **Locator:** Page 5, "Study design" section. **Class/Design:** Invoking Class B. The paper has no trial arms.
+
+ |
+| **5. Registered w/ CT.gov** | N/A | High | **Locator:** Page 5, "Study design" section. **Class/Design:** Invoking Class B. The paper has no trial arms. *Note:* While ClinicalTrials.gov registration is present (NCT02963441), Class B permits N/A for all items 3, 4, 5, 11, and 12 when there are no trial arms.
+
+ |
+| **6. Transparent Reporting** | Yes | High | **Locator:** Page 4, "Diagnostic algorithm" section. **Quote:** "It is a clinically-inspired algorithm, and therefore has independent, validated detectors for the lesions characteristic for DR, including microaneurysms, hemorrhages and lipoprotein exudates, the outputs of which are then fused into a disease level output, using a separately trained and validated machine learning algorithm." The paper specifies the explicit clinical predictors (biomarkers/lesions) and how their individual outputs are integrated.
+
+ |
+| **7. Honest Impact Eval** | N/A | High | **Locator:** Page 4, "Discussion" section. **Class/Design:** Invoking Class C. The paper contains no impact evaluation at all (it evaluates prospective diagnostic accuracy rather than measuring clinical impact on patient outcomes or care pathways in a comparative design).
+
+ |
+| **8. No Conflict of Interest** | No | High | **Locator:** Page 6, "Competing interests" section. **Quote:** "M.D.A. is shareholder, director, and employee of IDx, LLC, and has relevant patents and patent applications assigned to the University of Iowa... J.C.F. is shareholder of IDx, LLC." Authors have ownership and employment ties to the maker of the tested device.
+
+ |
+| **9. Focus on Patient Outcomes** | No | High | **Locator:** Page 6, "Primary and secondary outcomes" section. **Quote:** "The primary outcomes were the sensitivity and specificity of the AI system, which had a pre-set threshold and was locked, to detect fundus-based mtmDR + according to the FPRC grading." **Tier:** Tier 1 (Model performance metrics: sensitivity and specificity). Per `DEFINITIONS.md`, diagnostic sensitivity/specificity and disease detection rates stay at Tier 1/Tier 3 and score `No`.
+
+ |
+| **10. Adequate Sample Size** | Yes | High | **Locator:** Page 6, "Statistical analysis" section. **Quote:** "Sample sizes for these hypotheses were calculated for at least 85% power and one-sided 2.5% Type 1 error, requiring samples of 149 mtmDR positive participants and 682 mtmDR negative DR participants." Page 2, "Study population" section. **Quote:** "A total of 198 mtmDR participants were fully analyzable... [and] 621 No/Mild DR participants". A prospective power calculation was performed, and target enrollment for positive cases was met (198 observed vs 149 required).
+
+ |
+| **11. Intention-to-Treat** | N/A | High | **Locator:** Page 5, "Study design" section. **Class/Design:** Invoking Class B. The paper has no trial arms.
+
+ |
+| **12. Balanced Table 1** | N/A | High | **Locator:** Page 5, "Study design" section. **Class/Design:** Invoking Class B. The paper has no trial arms (Table 1 presents single-cohort demographic breakdowns split by analyzable vs non-analyzable status rather than randomised study arms).
+
+ |
+| **13. No Reverse Causation** | Yes | High | **Locator:** Page 5, "Study protocol" section. **Quote:** "The AI system protocol consisted of the following steps: 1. Operator takes images with a nonmydriatic retinal camera... 2. Operator submits images to the AI system for automated image quality and protocol adherence evaluation... Whenever the AI system indicates sufficient quality, the AI system disease level output... is automatically provided to the CRO". The inputs to the model are nonmydriatic retinal images captured before the diagnostic output or ground truth evaluation.
+
+ |
+
+---
+
+## Additional Observations
+
+1. **Class B Items (Items 3, 4, 5, 11, 12):** Although this paper includes prospective registration on ClinicalTrials.gov (NCT02963441), pre-specified endpoints, and detailed power calculations, it is a single-arm diagnostic accuracy evaluation without comparative trial arms. Per the rules governing Class B items in `RATER_INSTRUCTIONS.md`, all trial-arm specific items score `N/A`.
+
+
+2. **Intent-to-Screen Analysis vs. ITT:** The study authors explicitly invoke an "intent-to-screen (ITS)" framework. However, 73 of the 892 ITS participants (8.2%) were excluded from primary statistical analysis due to ungradable FPRC images or AI system image quality issues. If evaluated under trial standards, these post-enrollment exclusions would fail ITT criteria, but `N/A` applies here due to Class B permitting rules for non-arm observational designs.

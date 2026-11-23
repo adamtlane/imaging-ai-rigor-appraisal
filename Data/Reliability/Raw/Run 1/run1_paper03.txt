@@ -1,0 +1,108 @@
+## Verification of Citation
+
+Before scoring, the details on page 1 of the attached PDF were checked against Paper 3 in the citation list:
+
+* **First Author:** Michael D. Abramoff
+
+
+* **Journal:** *npj Digital Medicine*
+
+* **Year:** 2018
+
+
+* **Study Design:** Prospective observational pivotal trial / diagnostic accuracy study
+
+
+
+**Result:** All four fields agree with the citation record (*Abramoff et al. 2018, npj Digital Medicine (IDx-DR)*).
+
+---
+
+## Scoring Checklist
+
+| Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- |
+| **1. External Validation** | `Yes` | High | **Locator:** "Methods - Study design", p. 5
+
+<br>
+
+<br>**Quotation:** "From January 2017 to July 2017, 900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States."
+
+ |
+| **2. Patient-Level RCT** | `No` | High | **Locator:** "Methods - Study design", p. 5
+
+<br>
+
+<br>**Quotation:** "...900 participants were prospectively enrolled in this observational study at 10 primary care practice sites throughout the United States."
+
+ |
+| **3. Prespecified Endpoint** | `N/A` | High | **Locator:** Class B item. The paper has no trial arms (prospectively enrolled single-arm observational diagnostic accuracy study).
+
+ |
+| **4. Prespecified Design** | `N/A` | High | **Locator:** Class B item. The paper has no trial arms.
+
+ |
+| **5. Registered w/ CT.gov** | `Yes` | High | **Locator:** "Abstract", p. 1 / "Acknowledgements", p. 6
+
+<br>
+
+<br>**Quotation:** "The study was registered before study start at Clinical Trials.gov under NCT02963441."
+
+ |
+| **6. Transparent Reporting** | `Yes` | High | **Locator:** "Methods - Diagnostic algorithm", p. 4
+
+<br>
+
+<br>**Quotation:** "It is a clinically-inspired algorithm, and therefore has independent, validated detectors for the lesions characteristic for DR, including microaneurysms, hemorrhages and lipoprotein exudates, the outputs of which are then fused into a disease level output, using a separately trained and validated machine learning algorithm."
+
+ |
+| **7. Honest Impact Eval** | `N/A` | High | **Locator:** Class C item. The paper contains no impact evaluation at all (it measures diagnostic accuracy against a reading center reference standard, not clinical impact on patient care).
+
+ |
+| **8. No Conflict of Interest** | `No` | High | **Locator:** "Competing interests", p. 6
+
+<br>
+
+<br>**Quotation:** "M.D.A. is shareholder, director, and employee of IDx, LLC, and has relevant patents and patent applications assigned to the University of Iowa... J.C.F. is shareholder of IDx, LLC."
+
+ |
+| **9. Focus on Patient Outcomes** | `No` | High | **Locator:** "Methods - Primary and secondary outcomes", p. 6
+
+<br>
+
+<br>**Quotation:** "The primary outcomes were the sensitivity and specificity of the AI system, which had a pre-set threshold and was locked, to detect fundus-based mtmDR + according to the FPRC grading."
+
+<br>
+
+<br>**Tier Assigned:** Tier 1 (Model performance metrics: sensitivity and specificity computed against a reading center reference standard).
+
+ |
+| **10. Adequate Sample Size** | `Yes` | High | **Locator:** "Methods - Statistical analysis", p. 6
+
+<br>
+
+<br>**Quotation:** "Sample sizes for these hypotheses were calculated for at least 85% power and one-sided 2.5% Type 1 error, requiring samples of 149 mtmDR positive participants and 682 mtmDR negative DR participants." (Target met: 198 mtmDR positive and 621 mtmDR negative analyzable participants enrolled).
+
+ |
+| **11. Intention-to-Treat** | `N/A` | High | **Locator:** Class B item. The paper has no trial arms.
+
+ |
+| **12. Balanced Table 1** | `N/A` | High | **Locator:** Class B item. The paper has no trial arms.
+
+ |
+| **13. No Reverse Causation** | `Yes` | High | **Locator:** "Methods - Diagnostic algorithm", p. 4–5
+
+<br>
+
+<br>**Quotation:** "As its input it takes four retinal images... The diagnostic algorithm uses four sufficient quality images and then takes seconds to make a clinical decision..."
+
+ |
+
+---
+
+## Observations
+
+1. **Intention-to-Screen Terminology vs. ITT:** Although the paper refers to an "intent-to-screen (ITS) study design" (p. 2), this reflects a single-arm diagnostic evaluation framework rather than a comparative trial with randomised arms. As such, Items 2, 3, 4, 11, and 12 correctly invoke Class B `N/A` exclusions per the rating instructions.
+
+
+2. **Close Verdict Note on Item 9:** Item 9 was unequivocally assigned Tier 1. Although the paper discusses the downstream goal of preventing visual loss ("with the potential to help prevent vision loss in thousands of people with diabetes annually", p. 1), the operational definitions explicitly state that intent does not count and predicting/detecting disease remains Tier 1 / Tier 3. Sensitivity and specificity are model performance metrics (Tier 1), resulting in a definitive `No`.

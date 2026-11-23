@@ -1,0 +1,73 @@
+## Initial Verification
+
+The required fields on page 1 of the attached PDF were checked against the citation record:
+
+* **First Author:** Rawen Kader
+
+
+* **Journal:** npj Digital Medicine
+
+
+* **Year:** 2026 (Issue line: `npj Digital Medicine | (2026)9:84`; DOI carries 2025: `10.1038/s41746-025-02270-1`)
+
+
+* **Study Design:** Parallel-group Randomized Controlled Trial (RCT)
+
+
+
+**Verification Result:** All four fields agree with the citation provided.
+
+---
+
+## Reliability Study Checklist Scores
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| 1 | External Validation | `No` | High | **Locator:** Methods, "CADDIE system" (p. 6) and "Study design" (p. 7). **Quote:** "The CADe convolutional neural network (CNN) algorithm was developed with over 1000 histologically confirmed polyps..." The paper evaluates the CADDIE tool in a prospective randomized trial across multiple clinical centers, but does not report a separate standalone external validation cohort or benchmark evaluation separate from the trial evaluation itself.
+
+ |
+| 2 | Patient-Level RCT | `Yes` | High | **Locator:** Methods, "Randomization and masking" (p. 7). **Quote:** "Recruiting research staff at each site, randomized patients immediately before colonoscopy, assigning patients in a 1:1 ratio in blocks of four to CADDIE-assisted colonoscopy (CADe-arm) or standard colonoscopy (SoC-arm)."
+
+ |
+| 3 | Prespecified Endpoint | `Yes` | High | **Locator:** Methods, "Study design" (p. 7) and "Clinical outcome measures" (p. 8). **Quote:** "The study was registered on ClinicalTrials.gov (NCT05730192) on 15th February 2023..." and "The study assessed two co-primary endpoints. The primary efficacy outcome was the mean Adenomas Per Colonoscopy (APC)... the co-primary safety endpoint was Percent Positive Agreement (PPA)..."
+
+ |
+| 4 | Prespecified Design | `Yes` | High | **Locator:** Methods, "Study design" (p. 7). **Quote:** "The EAGLE study is a prospective, multi-center, parallel-group RCT conducted in eight European centers... The study was registered on ClinicalTrials.gov (NCT05730192) on 15th February 2023..."
+
+ |
+| 5 | Registered w/ CT.gov | `Yes` | High | **Locator:** Abstract (p. 1) & Methods (p. 7). **Quote:** "ClinicalTrials.gov (NCT05730192[15/02/2023])." Registration occurred on February 15, 2023, prior to patient enrollment (May to November 2023).
+
+ |
+| 6 | Transparent Reporting | `No` | High | **Locator:** Methods, "CADDIE system" (p. 6). **Quote:** "The CADe convolutional neural network (CNN) algorithm was developed with over 1000 histologically confirmed polyps, including an enhanced subset of clinically significant polyps..." Predictors and feature importance are not described beyond mentioning a CNN architecture and training dataset composition.
+
+ |
+| 7 | Honest Impact Eval | `Yes` | High | **Locator:** Abstract (p. 1) & Results (p. 3). **Quote:** "CADe improved (p < 0.05): APC (0.82 vs. 0.62, Ratio 1.33[95% CI 1.06–1.67]), adenoma detection-rate (43.2% vs. 35.9%), SSL... and large polyp... detection. PPA was non-inferior..." Abstract conclusions accurately reflect the statistical results of the trial.
+
+ |
+| 8 | No Conflict of Interest | `No` | High | **Locator:** Competing interests (p. 10) & Role of the funding source (p. 8). **Quote:** "R.K., L.B.L, C.H., A.R., and M.R. have received medical consultancy fees from Odin Medical Ltd." and "The study funder and sponsor, Odin Medical Ltd., provided the CADe system and assisted in the study design."
+
+ |
+| 9 | Focus on Patient Outcomes | `No` | High | **Locator:** Methods, "Clinical outcome measures" (p. 8). **Quote:** "The primary efficacy outcome was the mean Adenomas Per Colonoscopy (APC)... the co-primary safety endpoint was Percent Positive Agreement (PPA)..." **Tier assigned:** Tier 3 (Surrogate or intermediate clinical finding). Both co-primary endpoints are detection counts/proportions on resected tissue, which do not meet Tier 4.
+
+ |
+| 10 | Adequate Sample Size | `Yes` | High | **Locator:** Methods, "Statistical analysis" (p. 8) & Results (p. 2). **Quote:** "Using a one-sided 2.5% significance level... and 80% power, it was calculated that 430 patients per group were required, totaling 860 patients... To satisfy both co-primary endpoints (APC and PPA), the sample size was selected as the highest of the two individual calculations, which was APC (n = 860)." Control arm baseline APC assumed 0.83; observed was 0.62. Target enrollment (841 mITT analyzed out of 973 randomized) met requirements.
+
+ |
+| 11 | Intention-to-Treat | `No` | High | **Locator:** Methods, "Statistical analysis" (p. 8) & Fig. 1 CONSORT (p. 2). **Quote:** "The study was analyzed using the modified intention to treat (mITT) population per-protocol..." 973 participants were randomized, but 132 were excluded post-randomization, leaving 841 in the analyzed population.
+
+ |
+| 12 | Balanced Table 1 | `Yes` | High | **Locator:** Results (p. 3) & Supplementary Tables 3–5. **Quote:** "The analyzed study population included 841 patients (417 CADe-arm, 424 SoC-arm)... Screening accounted for 653 (77.7%) patients and 188 (22.3%) for surveillance. Endoscopic model... and procedural characteristics, including sedation and bowel preparation quality... were similar in both arms."
+
+ |
+| 13 | No Reverse Causation | `Yes` | High | **Locator:** Methods, "CADDIE system" (p. 6). **Quote:** "The cloud back-end applies the CADe algorithm, streaming detection results back to the endoscopy suite, in real-time, as bounding boxes overlaid on the video feed on the endoscopy screen..." Model inputs are real-time video frames processed prior to detection/resection.
+
+ |
+
+---
+
+## Observations
+
+* **Boundary Case on Item 11 (Intention-to-Treat):** Although the paper uses the term "modified intention to treat (mITT)", the analysis excludes 132 randomized patients post-randomization due to procedural quality, equipment, or protocol deviations (analyzing 841/973 randomized patients). Under the strict instruction rules, post-randomization exclusions force a verdict of `No` regardless of terminology.
+
+
+* **Item 9 Tier Distinction:** The primary endpoint (Adenomas Per Colonoscopy, APC) measures mucosal lesion detection. As defined in `DEFINITIONS.md`, diagnostic and lesion detection counts belong strictly to Tier 3 (Surrogate) rather than Tier 4 (Patient Outcome) because detecting a lesion alters diagnostic knowledge rather than directly altering what the patient experiences without being told.

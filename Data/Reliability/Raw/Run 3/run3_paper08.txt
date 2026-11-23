@@ -1,0 +1,45 @@
+## Initial Verification Check
+
+Before scoring, the metadata on page one of the paper was checked against the manifest record:
+
+* **First Author:** Uri Ladabaum
+
+
+* **Journal:** Gastroenterology
+
+
+* **Year:** 2023 (Gastroenterology 2023 March; 164(3): 481-483.e6)
+
+
+* **Study Design:** Retrospective pragmatic trial with historical and concurrent control subjects (non-randomized difference-in-difference implementation study)
+
+
+
+**Verification Result:** All four fields match the provided citation record ("Ladabaum et al. 2023, Gastroenterology"). Proceeding with evaluation.
+
+---
+
+## Rigor Checklist Evaluation
+
+| # | Item | Verdict | Confidence | Note |
+| --- | --- | --- | --- | --- |
+| 1 | External Validation | **No** | High | **Page 2 ("Methods"):** Evaluated within a single health system across its endoscopy units. *"CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation... Our system's 5 other units served as control sites."* No external site/dataset outside the system was evaluated. |
+| 2 | Patient-Level RCT | **No** | High | **Page 2 ("Methods"):** *"We conducted a retrospective pragmatic trial with historical and concurrent control subjects."* There was no individual patient randomisation (units were allocated by site/period for implementation evaluation). |
+| 3 | Prespecified Endpoint | **N/A** | High | Invoking Class B. The paper has no trial arms (it is a non-randomized observational/quasi-experimental implementation study with historical/concurrent control cohorts). |
+| 4 | Prespecified Design | **N/A** | High | Invoking Class B. The paper has no trial arms. |
+| 5 | Registered w/ CT.gov | **No** | High | **Page 2 & Whole Paper:** No NCT number or clinical trial registry identifier is stated anywhere in the paper or footnote disclosures. |
+| 6 | Transparent Reporting | **No** | High | **Page 2 ("Methods"):** The underlying CADe tool (GI Genius) is described as a pre-existing commercial device, but model predictor relative importances or quantitative feature descriptions are not reported in the paper. *"The first CADe device approved in the United States (GI Genius; Medtronic, Minneapolis, MN)..."* |
+| 7 | Honest Impact Eval | **Yes** | High | **Page 2 ("Abstract/Summary") & Page 4 ("Summary"):** The main conclusion directly reflects the observed null result. *"In summary, our results contrast sharply with those of randomized trials. In real-world practice, CADe implementation without attention to endoscopist inclination and behavior may not achieve the intended results."* |
+| 8 | No Conflict of Interest | **No** | High | **Page 1 ("Conflicts of interest"):** *"Uri Ladabaum is on the advisory board for UniversalDx and Lean Medical, and is a consultant for Medtronic, Clinical Genomics, Guardant Health, Freenome, and Geneoscopy."* Medtronic is the maker of the evaluated CADe device (GI Genius). |
+| 9 | Focus on Patient Outcomes | **No** | High | **Page 2 ("Methods"):** Tier 3 (Surrogate or intermediate clinical finding). The primary endpoints evaluated are polyp/adenoma detection rates (ADR, APC). *"During the implementation period in the CADe site, ADR was 40.1%... and mean APC was 0.78..."* Per `DEFINITIONS.md`, any lesion detection rate or per-procedure lesion count is Tier 3. |
+| 10 | Adequate Sample Size | **No** | High | **Page 2 ("Methods") & Supplementary Material:** No formal a priori power calculation or sample size target is reported in the main text; the evaluation was time-bound to a fixed 3-month pragmatic period. *"CADe devices were installed in our health system's largest outpatient endoscopy unit ('CADe site') for a 3-month evaluation..."* |
+| 11 | Intention-to-Treat | **N/A** | High | Invoking Class B. The paper has no trial arms. |
+| 12 | Balanced Table 1 | **N/A** | High | Invoking Class B. The paper has no trial arms (it evaluates historical and concurrent observational cohorts in a difference-in-difference framework). |
+| 13 | No Reverse Causation | **Yes** | High | **Page 2 ("Methods"):** Predictors/covariates in the difference-in-difference model (age, sex, procedure indication) were measured prior to or at procedure baseline, with no downstream outcome proxies used as inputs. *"adjusting for patient age and sex and procedure indication"*. |
+
+---
+
+## Additional Observations
+
+* **Trial Classification / Boundary Nuance:** While the paper self-identifies as a "pragmatic implementation trial" using a difference-in-difference analytical design, it lacks true experimental randomisation or randomized trial arms. Under the provided scoring instructions, non-randomized observational/implementation comparative studies invoke `N/A` for Class B items (Items 3, 4, 11, 12).
+* **Focus on Real-World Outcome Barriers:** The authors explicitly cite the international Delphi panel goal of measuring real-world endoscopist interaction and patient outcomes, but acknowledge that the measured endpoints remain standard intermediate detection quality metrics (ADR/APC) rather than long-term patient outcomes (e.g., post-colonoscopy colorectal cancer or mortality).

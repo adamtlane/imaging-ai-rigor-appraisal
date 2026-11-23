@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# Source papers are not redistributed (see README)
+Papers/
+Handover/Papers/
+Refs/

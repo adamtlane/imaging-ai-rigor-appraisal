@@ -1,0 +1,196 @@
+﻿paper_id,domain,set,citation,item_no,item,verdict,scoreable,is_yes
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",1,External Validation,Yes,1,1
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",2,Patient-Level RCT,No,1,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",3,Prespecified Endpoint,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",4,Prespecified Design,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",5,Registered w/ CT.gov,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",6,Transparent Reporting,No,1,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",7,Honest Impact Eval,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",8,No Conflict of Interest,Yes,1,1
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",9,Focus on Patient Outcomes,No,1,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",10,Adequate Sample Size,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",11,Intention-to-Treat,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",12,Balanced Table 1,N/A,0,0
+1,Retinal,PRIMARY,"Zhou et al. 2023, Nature (RETFound)",13,No Reverse Causation,N/A,0,0
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",1,External Validation,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",2,Patient-Level RCT,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",3,Prespecified Endpoint,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",4,Prespecified Design,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",5,Registered w/ CT.gov,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",6,Transparent Reporting,No,1,0
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",7,Honest Impact Eval,Unclear,1,0
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",8,No Conflict of Interest,No,1,0
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",9,Focus on Patient Outcomes,No,1,0
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",10,Adequate Sample Size,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",11,Intention-to-Treat,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",12,Balanced Table 1,Yes,1,1
+2,Retinal,PRIMARY,"Wolf et al. 2024, Nat Commun (ACCESS trial)",13,No Reverse Causation,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",1,External Validation,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",2,Patient-Level RCT,No,1,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",3,Prespecified Endpoint,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",4,Prespecified Design,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",5,Registered w/ CT.gov,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",6,Transparent Reporting,Unclear,1,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",7,Honest Impact Eval,N/A,0,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",8,No Conflict of Interest,No,1,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",9,Focus on Patient Outcomes,No,1,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",10,Adequate Sample Size,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",11,Intention-to-Treat,Yes,1,1
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",12,Balanced Table 1,N/A,0,0
+3,Retinal,PRIMARY,"Abramoff et al. 2018, npj Digital Medicine (IDx-DR)",13,No Reverse Causation,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",1,External Validation,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",2,Patient-Level RCT,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",3,Prespecified Endpoint,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",4,Prespecified Design,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",5,Registered w/ CT.gov,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",6,Transparent Reporting,No,1,0
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",7,Honest Impact Eval,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",8,No Conflict of Interest,No,1,0
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",9,Focus on Patient Outcomes,No,1,0
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",10,Adequate Sample Size,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",11,Intention-to-Treat,No,1,0
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",12,Balanced Table 1,Yes,1,1
+4,Colonoscopy,PRIMARY,"Kader R, Hassan C, Lanas Á, et al. 2025, npj Digital Medicine (EAGLE/CADDIE)",13,No Reverse Causation,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",1,External Validation,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",2,Patient-Level RCT,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",3,Prespecified Endpoint,Unclear,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",4,Prespecified Design,Unclear,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",5,Registered w/ CT.gov,No,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",6,Transparent Reporting,No,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",7,Honest Impact Eval,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",8,No Conflict of Interest,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",9,Focus on Patient Outcomes,No,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",10,Adequate Sample Size,No,1,0
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",11,Intention-to-Treat,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",12,Balanced Table 1,Yes,1,1
+5,Colonoscopy,PRIMARY,"Ahmad A, Wilson A, Haycock A, et al. 2023, Endoscopy (AI-DETECT)",13,No Reverse Causation,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",1,External Validation,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",2,Patient-Level RCT,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",3,Prespecified Endpoint,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",4,Prespecified Design,Unclear,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",5,Registered w/ CT.gov,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",6,Transparent Reporting,No,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",7,Honest Impact Eval,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",8,No Conflict of Interest,No,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",9,Focus on Patient Outcomes,No,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",10,Adequate Sample Size,No,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",11,Intention-to-Treat,Unclear,1,0
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",12,Balanced Table 1,Yes,1,1
+6,Colonoscopy,PRIMARY,"Wei et al. 2023, Am J Gastroenterol (AI-SEE)",13,No Reverse Causation,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",1,External Validation,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",2,Patient-Level RCT,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",3,Prespecified Endpoint,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",4,Prespecified Design,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",5,Registered w/ CT.gov,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",6,Transparent Reporting,No,1,0
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",7,Honest Impact Eval,No,1,0
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",8,No Conflict of Interest,No,1,0
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",9,Focus on Patient Outcomes,No,1,0
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",10,Adequate Sample Size,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",11,Intention-to-Treat,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",12,Balanced Table 1,Yes,1,1
+7,Colonoscopy,PRIMARY,"Repici et al. 2020, Gastroenterology",13,No Reverse Causation,Yes,1,1
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",1,External Validation,Yes,1,1
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",2,Patient-Level RCT,No,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",3,Prespecified Endpoint,Unclear,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",4,Prespecified Design,Unclear,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",5,Registered w/ CT.gov,No,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",6,Transparent Reporting,No,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",7,Honest Impact Eval,Yes,1,1
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",8,No Conflict of Interest,No,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",9,Focus on Patient Outcomes,No,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",10,Adequate Sample Size,Unclear,1,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",11,Intention-to-Treat,N/A,0,0
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",12,Balanced Table 1,Yes,1,1
+8,Colonoscopy,PRIMARY,"Ladabaum et al. 2023, Gastroenterology (negative pragmatic trial)",13,No Reverse Causation,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",1,External Validation,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",2,Patient-Level RCT,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",3,Prespecified Endpoint,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",4,Prespecified Design,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",5,Registered w/ CT.gov,Unclear,1,0
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",6,Transparent Reporting,No,1,0
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",7,Honest Impact Eval,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",8,No Conflict of Interest,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",9,Focus on Patient Outcomes,No,1,0
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",10,Adequate Sample Size,No,1,0
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",11,Intention-to-Treat,Yes,1,1
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",12,Balanced Table 1,No,1,0
+9,Colonoscopy,PRIMARY,"Alali et al. 2025, J Clin Med (Kuwait RCT)",13,No Reverse Causation,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",1,External Validation,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",2,Patient-Level RCT,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",3,Prespecified Endpoint,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",4,Prespecified Design,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",5,Registered w/ CT.gov,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",6,Transparent Reporting,Unclear,1,0
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",7,Honest Impact Eval,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",8,No Conflict of Interest,No,1,0
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",9,Focus on Patient Outcomes,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",10,Adequate Sample Size,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",11,Intention-to-Treat,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",12,Balanced Table 1,Yes,1,1
+10,ECG,SECONDARY,"Lin et al. 2024, Nat Med (AI-ECG mortality RCT)",13,No Reverse Causation,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",1,External Validation,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",2,Patient-Level RCT,No,1,0
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",3,Prespecified Endpoint,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",4,Prespecified Design,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",5,Registered w/ CT.gov,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",6,Transparent Reporting,No,1,0
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",7,Honest Impact Eval,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",8,No Conflict of Interest,No,1,0
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",9,Focus on Patient Outcomes,No,1,0
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",10,Adequate Sample Size,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",11,Intention-to-Treat,Yes,1,1
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",12,Balanced Table 1,Unclear,1,0
+11,ECG,SECONDARY,"Yao et al. 2021, Nat Med (Mayo EAGLE trial)",13,No Reverse Causation,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",1,External Validation,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",2,Patient-Level RCT,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",3,Prespecified Endpoint,No,1,0
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",4,Prespecified Design,No,1,0
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",5,Registered w/ CT.gov,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",6,Transparent Reporting,No,1,0
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",7,Honest Impact Eval,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",8,No Conflict of Interest,Unclear,1,0
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",9,Focus on Patient Outcomes,No,1,0
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",10,Adequate Sample Size,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",11,Intention-to-Treat,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",12,Balanced Table 1,Yes,1,1
+12,ECG,SECONDARY,"Tsai et al. 2025, BMC Medicine (Taiwan inpatient AI-ECG trial)",13,No Reverse Causation,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",1,External Validation,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",2,Patient-Level RCT,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",3,Prespecified Endpoint,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",4,Prespecified Design,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",5,Registered w/ CT.gov,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",6,Transparent Reporting,No,1,0
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",7,Honest Impact Eval,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",8,No Conflict of Interest,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",9,Focus on Patient Outcomes,No,1,0
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",10,Adequate Sample Size,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",11,Intention-to-Treat,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",12,Balanced Table 1,Yes,1,1
+13,Colonoscopy,PRIMARY,"Hsu et al. 2026, JAMA Netw Open (high-ADR setting RCT)",13,No Reverse Causation,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",1,External Validation,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",2,Patient-Level RCT,No,1,0
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",3,Prespecified Endpoint,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",4,Prespecified Design,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",5,Registered w/ CT.gov,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",6,Transparent Reporting,No,1,0
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",7,Honest Impact Eval,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",8,No Conflict of Interest,Unclear,1,0
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",9,Focus on Patient Outcomes,No,1,0
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",10,Adequate Sample Size,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",11,Intention-to-Treat,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",12,Balanced Table 1,Yes,1,1
+14,ECG,SECONDARY,"Liu et al. 2025, J Am Heart Assoc (CARDIOLOGIST, AI-ECG for AF)",13,No Reverse Causation,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",1,External Validation,Unclear,1,0
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",2,Patient-Level RCT,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",3,Prespecified Endpoint,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",4,Prespecified Design,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",5,Registered w/ CT.gov,Unclear,1,0
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",6,Transparent Reporting,Unclear,1,0
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",7,Honest Impact Eval,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",8,No Conflict of Interest,No,1,0
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",9,Focus on Patient Outcomes,No,1,0
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",10,Adequate Sample Size,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",11,Intention-to-Treat,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",12,Balanced Table 1,Yes,1,1
+15,Retinal,PRIMARY,"Mathenge et al. 2022, Ophthalmol Sci (RAIDERS, Rwanda)",13,No Reverse Causation,Yes,1,1

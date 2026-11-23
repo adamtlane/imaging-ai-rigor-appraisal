@@ -1,0 +1,14 @@
+﻿item_no,item,overall_yes,overall_scoreable,overall_rate,retinal_rate,colonoscopy_rate,ecg_rate,n_yes,n_no,n_unclear,n_na,distinct_verdicts,status
+1,External Validation,14,15,0.9333,0.75,1.0,1.0,14,0,1,0,2,Near-degenerate
+2,Patient-Level RCT,10,15,0.6667,0.5,0.8571,0.5,10,5,0,0,2,Discriminates
+3,Prespecified Endpoint,11,14,0.7857,1.0,0.7143,0.75,11,1,2,1,3,Discriminates
+4,Prespecified Design,10,14,0.7143,1.0,0.5714,0.75,10,1,3,1,3,Discriminates
+5,Registered w/ CT.gov,10,14,0.7143,0.6667,0.5714,1.0,10,2,2,1,3,Discriminates
+6,Transparent Reporting,0,15,0.0,0.0,0.0,0.0,0,12,3,0,2,Near-degenerate
+7,Honest Impact Eval,11,13,0.8462,0.5,0.8571,1.0,11,1,1,2,3,Discriminates
+8,No Conflict of Interest,4,15,0.2667,0.25,0.4286,0.0,4,9,2,0,3,Discriminates
+9,Focus on Patient Outcomes,1,15,0.0667,0.0,0.0,0.25,1,14,0,0,2,Near-degenerate
+10,Adequate Sample Size,10,14,0.7143,1.0,0.4286,1.0,10,3,1,1,3,Discriminates
+11,Intention-to-Treat,11,13,0.8462,1.0,0.6667,1.0,11,1,1,2,3,Discriminates
+12,Balanced Table 1,11,13,0.8462,1.0,0.8571,0.75,11,1,1,2,3,Discriminates
+13,No Reverse Causation,14,14,1.0,1.0,1.0,1.0,14,0,0,1,1,DEGENERATE

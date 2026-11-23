@@ -1,0 +1,16 @@
+session,run,paper_id,paper,raw_file,model_name,model_version,date_started,stopped_early,notes
+1,1,1,Zhou 2023 RETFound,Raw/Run 1/run1_paper01.txt,Gemini,3.6 Flash,2026-08-03,no,"first attempt VOID, only 2 of 3 files reached the model, see D13. This row is the valid re-run in a fresh conversation. Transcript saved 19:29 local, save time not session start. Void transcript was overwritten and does not survive."
+2,1,3,Abramoff 2018 IDx-DR,Raw/Run 1/run1_paper03.txt,Gemini,3.6 Flash,2026-08-03,no,"transcript saved 19:43 local, save time not session start"
+3,1,4,Kader 2026 EAGLE/CADDIE,Raw/Run 1/run1_paper04.txt,Gemini,3.6 Flash,2026-08-03,no,"transcript saved 19:46 local, save time not session start"
+4,1,8,Ladabaum 2023,Raw/Run 1/run1_paper08.txt,Gemini,3.6 Flash,2026-08-03,no,"transcript saved 19:47 local, save time not session start"
+5,1,14,Liu 2025 CARDIOLOGIST,Raw/Run 1/run1_paper14.txt,Gemini,3.6 Flash,2026-08-03,no,"transcript saved 19:48 local, save time not session start"
+6,2,1,Zhou 2023 RETFound,Raw/Run 2/run2_paper01.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+7,2,3,Abramoff 2018 IDx-DR,Raw/Run 2/run2_paper03.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+8,2,4,Kader 2026 EAGLE/CADDIE,Raw/Run 2/run2_paper04.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+9,2,8,Ladabaum 2023,Raw/Run 2/run2_paper08.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+10,2,14,Liu 2025 CARDIOLOGIST,Raw/Run 2/run2_paper14.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+11,3,1,Zhou 2023 RETFound,Raw/Run 3/run3_paper01.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+12,3,3,Abramoff 2018 IDx-DR,Raw/Run 3/run3_paper03.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+13,3,4,Kader 2026 EAGLE/CADDIE,Raw/Run 3/run3_paper04.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+14,3,8,Ladabaum 2023,Raw/Run 3/run3_paper08.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
+15,3,14,Liu 2025 CARDIOLOGIST,Raw/Run 3/run3_paper14.txt,Gemini,3.6 Flash,2026-08-03,no,model and version confirmed directly by the appraiser on 2026-08-03
